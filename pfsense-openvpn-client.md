@@ -8,7 +8,7 @@
 
 ## Objective
 Allow Clients behind the PFsense to be able to access the internet via the OpenVPN session that PFSense have established with the OpenVPN Server
-> Clients ---> PFsense ---> OpenVPN Server ---> Internet
+> Clients (Host-only) --->(Host-only) PFsense (NAT)---> OpenVPN Server ---> Internet
 
 ## PFSense Configurations
 
